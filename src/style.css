@@ -1,0 +1,54 @@
+table {
+    color: white;
+    width: 100%;
+    background-color: rgb(109, 109, 109);
+}
+
+th {
+    height: 40px;
+}
+
+td,
+th,
+tr {
+    width: 100px;
+    text-align: center;
+}
+
+#sr {
+    width: 5%;
+}
+
+#name {
+    text-align: left;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+#author {
+    text-transform: capitalize;
+}
+
+#language {
+    text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+input, button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(109, 109, 109);
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
