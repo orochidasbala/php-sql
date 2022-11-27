@@ -1,5 +1,5 @@
 <form action="databases/query/create.php" method="post">
-    <label>Book adding</label><br>
+    <!-- <label>Book adding</label><br> -->
     <input type="text" name="bookname" placeholder="book title">
     <input type="text" name="author" placeholder="author name">
     <input type="text" name="language" placeholder="language">
