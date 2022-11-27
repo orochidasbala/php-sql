@@ -12,6 +12,8 @@
     
     if($db_connection->exec($query)) {
         header("Location: /");
+        die();
     } else {
-        echo "Failed";
+        header("Location: /");
+        die();
     }

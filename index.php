@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <h1>Books Library</h1>
+        <h2 class="text-primary">Books Library For Programming</h2>
         <?php
         require "databases/config.php";
         // require "./addBook.php";
